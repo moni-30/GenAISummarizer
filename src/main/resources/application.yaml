@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: document-summarizer
+
+google:
+  project-id: sep-rjha-08dec-cts
+  credentials:
+    file: classpath:gcp-credentials.json
+
+document-ai:
+  processor-id: 7381f3650fe0af1
+
+vertex-ai:
+  endpoint: https://us-documentai.googleapis.com/v1/projects/534738955739/locations/us/processors/7381f3650fe0af1:process
+  location: us-central1
+
+
+
